@@ -25,6 +25,6 @@ public class WaypointGUI {
     }
 
     public void openGUI () {
-        //verbindet die einzelnen GUI Methoden
+        //verbindet die einzelnen GUI Methoden //
     }
 }
