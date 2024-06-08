@@ -4,3 +4,4 @@ main: at.floticey.waypoint.Waypoint
 api-version: '1.20'
 commands:
   setwaypoint:
+  waypoints:

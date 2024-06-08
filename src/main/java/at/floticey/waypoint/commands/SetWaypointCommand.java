@@ -8,7 +8,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class WaypointCommand implements CommandExecutor {
+public class SetWaypointCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String s, String[] args) {
 
@@ -22,7 +22,6 @@ public class WaypointCommand implements CommandExecutor {
             } else {
                 player.sendMessage("Missing argument " + ChatColor.RED + " <name>");
             }
-
         }
 
         return false;
