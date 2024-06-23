@@ -43,8 +43,7 @@ public class WaypointGUI {
                 break;
             } else if (currentWaypointSlots % MAX_SLOTS_PER_ROW == 0) {
                 currentSlot += 3;
-            }
-            else {
+            } else {
                 currentSlot++;
             }
         }
